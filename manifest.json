@@ -1,7 +1,7 @@
 {
 	"id": "Document-Generator",
 	"name": "Auto Document Generator",
-	"version": "1.0.0",
+	"version": "v1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "Automatically generate the index and document according to your requirements via Docchain and ChatGPT.",
 	"author": "Jianqiu Li and Zhihao Shen",
