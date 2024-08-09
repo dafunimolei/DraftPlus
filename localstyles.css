@@ -1,0 +1,57 @@
+
+
+
+.text-modal.modal-content {
+	width: 300px;
+	height: 300px;
+	z-index: 9999;
+	position: fixed;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.text-modal.input-div, .text-modal.output-div, .text-modal.input-info-div, .text-modal.button-div {
+	margin-bottom: 2%;
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-modal.input-info-div {
+	margin-bottom: 5%;
+}
+
+.text-modal.textarea {
+	height: 100%;
+	width: 90%;
+}
+
+.text-modal.hidden-textarea {
+	height: 0px;
+	width: 0px;
+	display: none;
+}
+
+.text-modal.input-field {
+	width: 45%;
+	flex-wrap: wrap;
+}
+
+.text-modal.button {
+	font-size: 12px;
+	padding: 5px;
+	width: auto;
+	display: inline-block;
+}
+
+.text-modal.close-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+
