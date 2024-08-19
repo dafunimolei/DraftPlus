@@ -1,15 +1,15 @@
-# Obsidian 插件:中文名：文稿助手  
-# 英文名：DraftPlus
+# Obsidian 插件: 文稿助手 (DraftPlus)
 
 
 该项目使用 TypeScript 提供类型检查和文档。该仓库依赖于最新的插件 API (obsidian.d.ts) 的 TypeScript 定义格式，其中包含描述其功能的 TSDoc 注释。
-插件开发源语言为Javascript。
+插件开发源语言为`Javascript`
 
-**注意：** Obsidian API 仍处于早期测试阶段，可能随时更改！
+> **注意：** 
+>  Obsidian API 仍处于早期测试阶段，可能随时更改！
 
 该插件专为 iWhaleCloud 用户设计，具有以下功能：
 
-- 利用 Docchain 和 ChatGPT API 自动生成文本
+- 利用 Docchain API 自动生成文本
 - 根据您的要求自动生成索引
 - 根据现有索引逐段自动生成文档，段落以 ## 标记
 - 能够将文件保存到其他地址
@@ -18,7 +18,7 @@
 
 ## 设置：
 
-您需要提供服务器地址、 ChatGPT 令牌、Docchain用户名、Docchain密码、Docchain对应的topidid。这五个参数需要在设置中进行配置。
+您需要提供服务器地址、 Docchain用户名、Docchain密码、Docchain对应的主题ID。这4个参数需要在设置中进行配置。
 
 ## 使用方法：
 
@@ -80,7 +80,7 @@
 您可以输入自己的索引来生成文档。但请确保格式正确，如下所示：  
 索引应包含一个以 `#` 标记的标题，所有子索引应以 `##` 标记，子标题以 `###` 标记。如果没有 `###` 也是可以的。  
 下面是一个示例：
-
+```
 # ESG报告  
 ## 1. 产品与服务
 1. SHS-5
@@ -138,7 +138,7 @@
 ## 13. 石油精神与企业文化
 1. 感动石油人物
 2. 石油精神与铁人精神
-
+```
 
 
 ## 注意事项
@@ -149,7 +149,7 @@
 
 ## API 文档
 
-请参阅 [Obsidian API 文档](https://github.com/obsidianmd/obsidian-api)
+请参阅 [Obsidian API 文档](https://github.com/obsidianmd/obsidian-api)
 
 
 
